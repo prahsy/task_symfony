@@ -21,15 +21,15 @@
 
     <!-- Page Content -->
     <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
+        <div class="row" >
+            <div class="col-lg-12 text-left" >
 
                 <p class="lead"></p>
-
+                <ul>
                 {% for list in shoppingList %}
-                    {{ list }}
+                    <li class="list-group-item"> <span>{{ list }} </span></li>
                 {% endfor %}
-
+                </ul>
 
             </div>
 
