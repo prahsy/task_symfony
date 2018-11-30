@@ -8,7 +8,15 @@
 
 namespace App\Service;
 
-
+/**
+ * Class Alphabetizer
+ * @package App\Service
+ * requires sting
+ * 
+ * returns sorted array
+ * => Asc
+ * =>Desc
+ */
 class Alphabetizer
 {
     private $list;
