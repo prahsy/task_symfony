@@ -9,4 +9,7 @@ I used the power of symfony to fully use oop even for forms
 and i used Alphabetizer (custom made) as service for sorting
 and css for cutting lengthy strings
 
+
+Please CD into task_symfony Directory and run bin/console server:run this will use builtin server.
+
   
